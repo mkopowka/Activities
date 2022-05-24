@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj": {}
+    "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj": {
+    "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj",
+        "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj",
         "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\obj\\",
+        "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.5, )"
@@ -105,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
+              "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
               },
               "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj"
@@ -124,6 +132,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.5, )"
@@ -154,14 +170,14 @@
         }
       }
     },
-    "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+    "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,8 +260,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
+              "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
               }
             }
           }

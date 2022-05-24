@@ -1175,8 +1175,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
+            "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
             }
           }
         }
