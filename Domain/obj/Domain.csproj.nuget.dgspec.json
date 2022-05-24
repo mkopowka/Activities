@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {}
+    "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+    "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
