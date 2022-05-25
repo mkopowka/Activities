@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MEb7ocTz+EMnlRf2uWBcb0n9RVCwPDWQD442kcfiE5thkACnebyEfpxZm36Y7fTbYJv76hEHVNRqRrPBNOELiA==",
+  "dgSpecHash": "zolJwwYmbesVu00GL8C+uiroZ+lLXzkkUKeotNEug1y1jQ32RGvBOa+ul2hpvATnpKDjyi2VuiJWyzvyDpJ+NA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domko\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
