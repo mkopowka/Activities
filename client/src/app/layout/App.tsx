@@ -9,11 +9,9 @@ import { observer } from 'mobx-react-lite';
 function App() {
   const { activityStore } = useStore();
 
-
   useEffect(() => {
     activityStore.loadActivities();
   }, [activityStore])
-
 
   if (activityStore.loadingInitial) return <LoadingComponent content='Loading app' />
 

@@ -3,7 +3,6 @@ import { Button, Card, Image } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import { useStore } from "../../../app/stores/store";
 
-
 export default function ActivityDetails() {
 
     const { activityStore } = useStore();
