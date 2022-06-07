@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './app/layout/App';
 import './app/layout/styles.css';
+import 'react-calendar/dist/Calendar.css'
 import { store, StoreContext } from './app/stores/store';
 import reportWebVitals from './reportWebVitals';
 
