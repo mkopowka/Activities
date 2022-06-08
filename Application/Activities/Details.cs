@@ -1,17 +1,18 @@
+using Application.Core;
+using Domain;
 using MediatR;
 using Persistence;
 
-namespace Application.Activitiess
+namespace Application.Activities
 {
-    public class Delete
+    public class Details
     {
-        public class Command : IRequest
+        public class Query : IRequest<Result<Activity>>
         {
             public Guid Id { get; set; }
-
         }
 
-        public class Handler : IRequestHandler<Command>
+        public class Handler : IRequestHandler<Query, Result<Activity>>
         {
             private readonly DataContext _context;
             public Handler(DataContext context)
@@ -19,15 +20,10 @@ namespace Application.Activitiess
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task<Result<Activity>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var activity = await _context.Activities.FindAsync(request.Id);
-
-                _context.Remove(activity);
-
-                await _context.SaveChangesAsync();
-
-                return Unit.Value;
+                return Result<Activity>.Success(activity);
             }
         }
     }
