@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXB1iek74BEFGARWZym4ltdLSTLbLgTp/+WpPcpbZeWZj5dKPpYIawwfQis8aZBJHgDjoSpRldvZtO7RyIvMcQ==",
+  "dgSpecHash": "yQ9Sajmpz4bHw5BXTPcvOR21Zk+Uv0SZyCtMxSWG9QGFVVIl0EApM+YKCHUvh4eKVwKaQ7sQ07W5CZYJmKpeFQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domko\\.nuget\\packages\\fluentvalidation\\11.0.2\\fluentvalidation.11.0.2.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.2\\fluentvalidation.aspnetcore.11.0.2.nupkg.sha512",

@@ -571,6 +571,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FluentValidation.AspNetCore": "11.0.2",
           "Microsoft.EntityFrameworkCore": "6.0.5"
         },
         "compile": {
@@ -1481,11 +1482,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\obj\\",
+      "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1495,17 +1496,18 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
+            "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
             },
-            "c:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj": {
-              "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj"
+            "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj"
             }
           }
         }

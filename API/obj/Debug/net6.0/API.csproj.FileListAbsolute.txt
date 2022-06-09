@@ -63,3 +63,6 @@ C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\MediatR.Cont
 C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

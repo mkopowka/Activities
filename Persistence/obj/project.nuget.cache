@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aa0JjLXYTkWOUFDusQTYCoXu4Doo4qMCrs2pfP27VaMzEmuhxboTJN5WZ2HBPuoTj3nRNsABs4rzGO+oPOGryw==",
+  "dgSpecHash": "4A9ShrazYvidufh+LxCiIUgMFFQ6oPbGxF1+zobzx7s6OqDntF230890b2NBDwyUGwHXUMYqXKLDTGEM9DvQ9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\domko\\.nuget\\packages\\fluentvalidation\\11.0.2\\fluentvalidation.11.0.2.nupkg.sha512",
+    "C:\\Users\\domko\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.2\\fluentvalidation.aspnetcore.11.0.2.nupkg.sha512",
+    "C:\\Users\\domko\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.2\\fluentvalidation.dependencyinjectionextensions.11.0.2.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
