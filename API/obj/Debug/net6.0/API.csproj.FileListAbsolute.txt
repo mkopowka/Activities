@@ -82,3 +82,5 @@ C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\Microsoft.Id
 C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
 C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\Infrastructure.pdb
