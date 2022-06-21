@@ -15,8 +15,8 @@ namespace Application.Photos
         public class Command : IRequest<Result<Unit>>
         {
             public string Id { get; set; }
-
         }
+
         public class Handler : IRequestHandler<Command, Result<Unit>>
         {
             private readonly DataContext _context;
@@ -28,8 +28,8 @@ namespace Application.Photos
                 _photoAccessor = photoAccessor;
                 _userAccessor = userAccessor;
                 _context = context;
-
             }
+
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
                 var user = await _context.Users.Include(p => p.Photos)
@@ -46,6 +46,7 @@ namespace Application.Photos
                 var result = await _photoAccessor.DeletePhoto(photo.Id);
 
                 if (result == null) return Result<Unit>.Failure("Problem with deleting photo");
+                
                 user.Photos.Remove(photo);
 
                 var success = await _context.SaveChangesAsync() > 0;

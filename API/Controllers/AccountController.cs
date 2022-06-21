@@ -39,9 +39,9 @@ namespace API.Controllers
             {
                 return CreateUserObject(user);
             }
-
             return Unauthorized();
         }
+
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
@@ -50,6 +50,7 @@ namespace API.Controllers
                 ModelState.AddModelError("email", "Email taken");
                 return ValidationProblem();
             }
+
             if (await _userManager.Users.AnyAsync(x => x.UserName == registerDto.Username))
             {
                 ModelState.AddModelError("username", "Username taken");
@@ -71,6 +72,7 @@ namespace API.Controllers
             }
             return BadRequest("Problem with register");
         }
+        
         [Authorize]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()

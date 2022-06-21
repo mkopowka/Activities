@@ -17,8 +17,6 @@ namespace Application.Photos
         public class Command : IRequest<Result<Photo>>
         {
             public IFormFile File { get; set; }
-
-
         }
 
         public class Handler : IRequestHandler<Command, Result<Photo>>
@@ -32,8 +30,8 @@ namespace Application.Photos
                 _photoAccessor = photoAccessor;
                 _userAccessor = userAccessor;
                 _context = context;
-
             }
+
             public async Task<Result<Photo>> Handle(Command request, CancellationToken cancellationToken)
             {
                 var user = await _context.Users.Include(p => p.Photos)
@@ -50,8 +48,11 @@ namespace Application.Photos
                 };
 
                 if (!user.Photos.Any(x => x.IsMain)) photo.IsMain = true;
+
                 user.Photos.Add(photo);
+
                 var result = await _context.SaveChangesAsync() > 0;
+                
                 if (result) return Result<Photo>.Success(photo);
 
                 return Result<Photo>.Failure("Problem with adding photo");
