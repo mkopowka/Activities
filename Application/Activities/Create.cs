@@ -13,7 +13,6 @@ namespace Application.Activities
         public class Command : IRequest<Result<Unit>>
         {
             public Activity Activity { get; set; }
-
         }
 
         public class CommandValidator : AbstractValidator<Command>
@@ -22,7 +21,6 @@ namespace Application.Activities
             {
                 RuleFor(x => x.Activity).SetValidator(new ActivityValidator());
             }
-
         }
 
         public class Handler : IRequestHandler<Command, Result<Unit>>
@@ -39,7 +37,6 @@ namespace Application.Activities
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
                 var user = await _context.Users.FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
-
 
                 var attendee = new ActivityAttendee
                 {

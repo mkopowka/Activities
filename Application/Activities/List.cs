@@ -23,7 +23,7 @@ namespace Application.Activities
                 _context = context;
                 _mapper = mapper;
             }
-
+            
             public async Task<Result<List<ActivityDto>>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var activities = await _context.Activities

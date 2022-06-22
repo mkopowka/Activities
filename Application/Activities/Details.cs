@@ -14,7 +14,6 @@ namespace Application.Activities
         {
             public Guid Id { get; set; }
         }
-        
         public class Handler : IRequestHandler<Query, Result<ActivityDto>>
         {
             private readonly DataContext _context;
@@ -24,7 +23,6 @@ namespace Application.Activities
                 _mapper = mapper;
                 _context = context;
             }
-
             public async Task<Result<ActivityDto>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var activity = await _context.Activities
