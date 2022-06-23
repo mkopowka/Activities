@@ -37,10 +37,8 @@ export default observer(function ProfilePhotos({ profile }: Props) {
                             })}
                         </Card.Group>
                     )}
-
                 </Grid.Column>
             </Grid>
-
         </Tab.Pane>
     )
 })

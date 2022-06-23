@@ -4,7 +4,6 @@ import { Tab } from "semantic-ui-react";
 import { Profile } from "../../app/models/profile";
 import ProfilePhotos from "./ProfilePhotos";
 
-
 interface Props {
     profile: Profile;
 }
@@ -23,7 +22,6 @@ export default observer(function ProfileContent({ profile }: Props) {
             menu={{ fluid: true, vertical: true }}
             menuPosition='right'
             panes={panes}
-
         />
     )
 })
