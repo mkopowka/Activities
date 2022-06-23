@@ -1,13 +1,11 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Application.Core;
 using Application.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
-using static Application.Activities.Create;
 
 namespace Application.Photos
 {
@@ -17,6 +15,7 @@ namespace Application.Photos
         {
             public string Id { get; set; }
         }
+
         public class Handler : IRequestHandler<Command, Result<Unit>>
         {
             private readonly DataContext _context;
@@ -25,13 +24,12 @@ namespace Application.Photos
             {
                 _userAccessor = userAccessor;
                 _context = context;
-
             }
+
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
-
                 var user = await _context.Users.Include(p => p.Photos)
-                 .FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
+                    .FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
 
                 if (user == null) return null;
 

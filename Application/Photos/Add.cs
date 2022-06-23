@@ -1,6 +1,5 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Application.Core;
 using Application.Interfaces;
@@ -24,18 +23,17 @@ namespace Application.Photos
             private readonly DataContext _context;
             private readonly IPhotoAccessor _photoAccessor;
             private readonly IUserAccessor _userAccessor;
-
             public Handler(DataContext context, IPhotoAccessor photoAccessor, IUserAccessor userAccessor)
             {
-                _photoAccessor = photoAccessor;
                 _userAccessor = userAccessor;
+                _photoAccessor = photoAccessor;
                 _context = context;
             }
 
             public async Task<Result<Photo>> Handle(Command request, CancellationToken cancellationToken)
             {
                 var user = await _context.Users.Include(p => p.Photos)
-                .FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
+                    .FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
 
                 if (user == null) return null;
 
@@ -52,10 +50,10 @@ namespace Application.Photos
                 user.Photos.Add(photo);
 
                 var result = await _context.SaveChangesAsync() > 0;
-                
+
                 if (result) return Result<Photo>.Success(photo);
 
-                return Result<Photo>.Failure("Problem with adding photo");
+                return Result<Photo>.Failure("Problem adding photo");
             }
         }
     }
