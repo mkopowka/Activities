@@ -6,4 +6,4 @@ namespace Infrastructure.Photos
         public string ApiKey { get; set; }
         public string ApiSecret { get; set; }
     }
-}
+} 

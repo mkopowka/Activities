@@ -72,12 +72,13 @@ namespace API.Controllers
             }
             return BadRequest("Problem with register");
         }
-        
+
         [Authorize]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
         {
-            var user = await _userManager.Users.Include(p => p.Photos).FirstOrDefaultAsync(x => x.Email == User.FindFirstValue(ClaimTypes.Email));
+            var user = await _userManager.Users.Include(p => p.Photos)
+                .FirstOrDefaultAsync(x => x.Email == User.FindFirstValue(ClaimTypes.Email));
             return CreateUserObject(user);
         }
 

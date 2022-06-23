@@ -35,7 +35,7 @@ namespace Application.Photos
 
                 var photo = user.Photos.FirstOrDefault(x => x.Id == request.Id);
 
-                if (photo == null) return null;
+                if (photo == null) return null; 
 
                 var currentMain = user.Photos.FirstOrDefault(x => x.IsMain);
 
@@ -51,4 +51,4 @@ namespace Application.Photos
             }
         }
     }
-}
+} 

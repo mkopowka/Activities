@@ -57,4 +57,4 @@ namespace Infrastructure.Photos
             return result.Result == "ok" ? result.Result : null;
         }
     }
-}
+} 
