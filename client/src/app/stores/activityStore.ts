@@ -16,6 +16,8 @@ export default class ActivityStore {
         makeAutoObservable(this)
     }
 
+    
+
     get activitiesByDate() {
         return Array.from(this.activityRegistry.values()).sort((a, b) => a.date!.getTime() - b.date!.getTime());
     }

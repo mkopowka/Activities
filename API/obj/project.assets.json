@@ -2414,11 +2414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\API.csproj",
+      "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\API.csproj",
       "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\obj\\",
+      "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2519,7 +2519,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
