@@ -17,7 +17,6 @@ namespace Application.Followers
         {
             public string TargetUsername { get; set; }
 
-
         }
         public class Handler : IRequestHandler<Command, Result<Unit>>
         {
