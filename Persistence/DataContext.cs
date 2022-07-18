@@ -9,6 +9,7 @@ namespace Persistence
     {
         public DataContext(DbContextOptions options) : base(options)
         {
+            Database.EnsureCreatedAsync();
         }
 
         public DbSet<Activity> Activities { get; set; }
@@ -41,7 +42,7 @@ namespace Persistence
             builder.Entity<UserFollowing>(b =>
             {
                 b.HasKey(k => new { k.ObserverId, k.TargetId });
-                
+
                 b.HasOne(o => o.Observer)
                     .WithMany(f => f.Followings)
                     .HasForeignKey(o => o.ObserverId)
