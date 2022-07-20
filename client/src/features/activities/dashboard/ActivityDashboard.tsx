@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import React, { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
-import { Grid, Loader } from "semantic-ui-react";
+import { Button, Grid, Loader } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import { PagingParams } from "../../../app/models/pagination";
 import { useStore } from "../../../app/stores/store";
@@ -46,6 +46,7 @@ export default observer(function ActivityDashboard() {
                         initialLoad={false}
                     >
                         <ActivityList />
+                        <Button floated="right" content='More...' positive onClick={handleGetNext} loading={loadingNext} disabled={pagination?.totalPages === pagination?.currentPage} />
                     </InfiniteScroll>
                 )}
             </Grid.Column>
