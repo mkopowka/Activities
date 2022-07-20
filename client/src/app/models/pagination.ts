@@ -5,7 +5,6 @@ export interface Pagination {
     totalPages: number;
 }
 
-
 export class PaginatedResult<T> {
     data: T;
     pagination: Pagination;
@@ -24,4 +23,4 @@ export class PagingParams {
         this.pageNumber = pageNumber;
         this.pageSize = pageSize;
     }
-}
+} 
