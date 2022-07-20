@@ -3,7 +3,7 @@ import agent from "../api/agent";
 import { Activity, ActivityFormValues } from "../models/activity";
 import { format, isThursday } from 'date-fns'
 import { store } from "./store";
-import { Profile } from "../models/profile";
+import { Profile, UserActivity } from "../models/profile";
 import { Pagination, PagingParams } from "../models/pagination";
 
 
@@ -12,6 +12,8 @@ export default class ActivityStore {
     selectedActivity: Activity | undefined = undefined;
     editMode = false;
     loading = false;
+    userActivities: UserActivity[] = [];
+    loadingActivities = false;
     loadingInitial = false;
     pagination: Pagination | null = null;
     pagingParams = new PagingParams();
@@ -30,8 +32,6 @@ export default class ActivityStore {
         )
     }
 
-
-
     setPagingParams = (pagingParams: PagingParams) => {
         this.pagingParams = pagingParams;
     }
@@ -39,7 +39,7 @@ export default class ActivityStore {
     setPredicate = (predicate: string, value: string | Date) => {
         const resetPredicate = () => {
             this.predicate.forEach((value, key) => {
-                if (key != 'startDate') this.predicate.delete(key);
+                if (key !== 'startDate') this.predicate.delete(key);
             })
         }
         switch (predicate) {
@@ -56,10 +56,8 @@ export default class ActivityStore {
                 this.predicate.set('isHost', true);
                 break;
             case 'startDate':
-                resetPredicate();
                 this.predicate.delete('startDate');
-                this.predicate.set('startDate', true);
-                break;
+                this.predicate.set('startDate', value);
         }
     }
 
@@ -69,7 +67,7 @@ export default class ActivityStore {
         params.append('pageSize', this.pagingParams.pageSize.toString());
         this.predicate.forEach((value, key) => {
             if (key === 'startDate') {
-                params.append(key, (value).toISOString())
+                params.append(key, (value as Date).toISOString())
             } else {
                 params.append(key, value);
             }
@@ -201,6 +199,23 @@ export default class ActivityStore {
             })
         }
     }
+
+    loadUserActivities = async (username: string, predicate?: string) => {
+        this.loadingActivities = true;
+        try {
+            const activities = await agent.Profiles.listActivities(username, predicate!);
+            runInAction(() => {
+                this.userActivities = activities;
+                this.loadingActivities = false;
+            })
+        } catch (error) {
+            console.log(error);
+            runInAction(() => {
+                this.loadingActivities = false;
+            })
+        }
+    }
+
     updateAttendance = async () => {
         const user = store.userStore.user;
         this.loading = true;
