@@ -85,6 +85,10 @@
               "target": "Package",
               "version": "[6.19.0, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -140,8 +144,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
+              "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
               },
               "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj"
@@ -188,6 +192,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             }
           },
           "imports": [
@@ -209,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+    "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -371,8 +379,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
+              "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -398,6 +406,10 @@
               "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.5, )"
             }
