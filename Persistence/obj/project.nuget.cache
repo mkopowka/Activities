@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O7v2L0yReLAWUWoTx7iXF558EFyj0bdDdQ9UCtt/zpMcNzp1WObAYL9vCmyb9qUQ6z8sNfS3jcKhwIUTpiuzGg==",
+  "dgSpecHash": "H/MLwF+qx6Dm6jdgstT8jnB4JhCjB3W2d6GiXo9sG4Jv95XYE5h3ajX9AtGFMJRKidpRQ/0DtnUnWb4YGWvljA==",
   "success": true,
   "projectFilePath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,8 @@
     "C:\\Users\\domko\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\domko\\.nuget\\packages\\npgsql\\6.0.5\\npgsql.6.0.5.nupkg.sha512",
+    "C:\\Users\\domko\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.5\\npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\domko\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
