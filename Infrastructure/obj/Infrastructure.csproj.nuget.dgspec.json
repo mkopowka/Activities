@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj": {}
+    "c:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\Users\\domko\\Documents\\Repository\\Activities\\Application\\Application.csproj": {
@@ -175,14 +175,14 @@
         }
       }
     },
-    "C:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\domko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\domko\\Documents\\Repository\\Activities\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\domko\\AppData\\Roaming\\NuGet\\NuGet.Config",
