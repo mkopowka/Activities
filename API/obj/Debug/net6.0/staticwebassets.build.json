@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hB4yuicPamfpTnbnEKwUESmcxu6lkLpvr8qRbaOrDx4=",
+  "Hash": "zuwsnfNVBaycFDHRJga/NXtY5CElmaOlQ1JABnQFUag=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\asset-manifest.json",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\asset-manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "asset-manifest.json",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\asset-manifest.json"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\.DS_Store",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\.DS_Store",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/.DS_Store",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\categoryImages\\culture.jpg",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/culture.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\culture.jpg"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\categoryImages\\drinks.jpg",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/drinks.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\drinks.jpg"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\categoryImages\\film.jpg",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/film.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\film.jpg"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\categoryImages\\food.jpg",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/food.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\food.jpg"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\categoryImages\\music.jpg",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/music.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\music.jpg"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\categoryImages\\travel.jpg",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/travel.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\travel.jpg"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\logo.png",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/logo.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\placeholder.png",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/placeholder.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\Thumbs.db",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\Thumbs.db",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/Thumbs.db",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\Thumbs.db"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\assets\\user.png",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\assets\\user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/user.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\user.png"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\logo192.png",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\logo192.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "logo192.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\logo192.png"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\logo512.png",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\logo512.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "logo512.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\logo512.png"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\manifest.json",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "manifest.json",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\manifest.json"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\robots.txt",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\robots.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "robots.txt",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\robots.txt"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\css\\main.d8a6c98d.css",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\css\\main.d8a6c98d.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/css/main.d8a6c98d.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\main.d8a6c98d.css"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\css\\main.d8a6c98d.css.map",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\css\\main.d8a6c98d.css.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/css/main.d8a6c98d.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\main.d8a6c98d.css.map"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\787.c4e7f8f9.chunk.js",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\js\\787.c4e7f8f9.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/787.c4e7f8f9.chunk.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.c4e7f8f9.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\787.c4e7f8f9.chunk.js.map",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\js\\787.c4e7f8f9.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/787.c4e7f8f9.chunk.js.map",
       "AssetKind": "All",
@@ -391,12 +391,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.c4e7f8f9.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.536a3682.js",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\js\\main.6ecb881a.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.536a3682.js",
+      "RelativePath": "static/js/main.6ecb881a.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.536a3682.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.6ecb881a.js"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.536a3682.js.LICENSE.txt",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\js\\main.6ecb881a.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.536a3682.js.LICENSE.txt",
+      "RelativePath": "static/js/main.6ecb881a.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.536a3682.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.6ecb881a.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.536a3682.js.map",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\static\\js\\main.6ecb881a.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.536a3682.js.map",
+      "RelativePath": "static/js/main.6ecb881a.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,7 +439,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.536a3682.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.6ecb881a.js.map"
     }
   ]
 }

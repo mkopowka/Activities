@@ -32,7 +32,7 @@ namespace Persistence
             builder.Entity<ActivityAttendee>()
                 .HasOne(u => u.Activity)
                 .WithMany(a => a.Attendees)
-                .HasForeignKey(aa => aa.ActivityId);
+                .HasForeignKey(aa => aa.ActivityId); 
 
             builder.Entity<Comment>()
                 .HasOne(a => a.Activity)
