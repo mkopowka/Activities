@@ -9,7 +9,8 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
-          "CloudinaryDotNet": "1.18.1"
+          "CloudinaryDotNet": "1.18.1",
+          "SendGrid": "9.28.0"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -424,6 +425,18 @@
           }
         }
       },
+      "SendGrid/9.28.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "starkbank-ecdsa": "1.3.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {
+            "assemblyVersion": "9.28.0.0",
+            "fileVersion": "9.28.0.0"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.6",
@@ -535,6 +548,14 @@
           "lib/net5.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
             "assemblyVersion": "2.0.6.1341",
             "fileVersion": "2.0.6.1341"
+          }
+        }
+      },
+      "starkbank-ecdsa/1.3.3": {
+        "runtime": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -928,6 +949,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/6.0.5",
       "hashPath": "npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512"
     },
+    "SendGrid/9.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cckzr5ypfVtqtZuMYOLuSEULIYrJLkoAIz5CsSkvjRanD7YoHIR73ENMnoPzpWNkyrDgMAHux7jOnbImv0kL8A==",
+      "path": "sendgrid/9.28.0",
+      "hashPath": "sendgrid.9.28.0.nupkg.sha512"
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "type": "package",
       "serviceable": true,
@@ -955,6 +983,13 @@
       "sha512": "sha512-peXLJbhU+0clVBIPirihM1NoTBqw8ouBpcUsVMlcZ4k6fcL2hwgkctVB2Nt5VsbnOJcPspQL5xQK7QvLpxkMgg==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.0.6",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512"
+    },
+    "starkbank-ecdsa/1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OblOaKb1enXn+dSp7tsx9yjwV+/BEKM9jFhshIkZTwCk7LuTFTp+wSon6rFzuPiIiTGtvVWQNUw2slHjGktJog==",
+      "path": "starkbank-ecdsa/1.3.3",
+      "hashPath": "starkbank-ecdsa.1.3.3.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

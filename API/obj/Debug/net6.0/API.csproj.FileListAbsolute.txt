@@ -91,3 +91,5 @@ C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\Npgsql.dll
 C:\Users\domko\Documents\Repository\Activities\API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
 C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\NWebsec.AspNetCore.Middleware.dll
+C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\SendGrid.dll
+C:\Users\domko\Documents\Repository\Activities\api\bin\Debug\net6.0\StarkbankEcdsa.dll
