@@ -61,7 +61,11 @@ namespace API
             app.UseXfo(opt => opt.Deny());
             app.UseCspReportOnly(opt => opt
                 .BlockAllMixedContent()
-                .StyleSources(s => s.Self().CustomSources("https://fonts.googleapis.com"))
+                .StyleSources(s => s.Self().CustomSources("https://fonts.googleapis.com",
+                "sha256-yR2gSI6BIICdRRE2IbNP1SJXeA5NYPbaM32i/Y8eS9o=",
+                "nonce-...",
+                "sha256-1cbUy93HKDzRlLznwxxpYjKMN5E9NDavV10ydh+pzi8=",
+                ""))
                 .FontSources(s => s.Self().CustomSources("https://fonts.gstatic.com", "data:"))
                 .FormActions(s => s.Self())
                 .FrameAncestors(s => s.Self())
