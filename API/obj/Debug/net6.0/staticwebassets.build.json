@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VU+wkJQxG5Zjnt0wxqwpJnpuhzwck7hBBvLTWQ89iuQ=",
+  "Hash": "GZprJZ5TbwM+8iogKlxySROZGjX00TXSA1LtCULkprM=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -391,12 +391,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.c4e7f8f9.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.10a77131.js",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.9dcef077.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.10a77131.js",
+      "RelativePath": "static/js/main.9dcef077.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.10a77131.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.9dcef077.js"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.10a77131.js.LICENSE.txt",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.9dcef077.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.10a77131.js.LICENSE.txt",
+      "RelativePath": "static/js/main.9dcef077.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.10a77131.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.9dcef077.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.10a77131.js.map",
+      "Identity": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\static\\js\\main.9dcef077.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\domko\\Documents\\Repository\\Activities\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.10a77131.js.map",
+      "RelativePath": "static/js/main.9dcef077.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,7 +439,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.10a77131.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.9dcef077.js.map"
     }
   ]
 }
