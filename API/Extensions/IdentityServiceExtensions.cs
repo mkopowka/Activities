@@ -1,8 +1,6 @@
 using Domain;
 using Microsoft.AspNetCore.Identity;
 using Persistence;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
